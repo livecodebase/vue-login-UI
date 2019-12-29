@@ -85,7 +85,7 @@ export default {
     };
   },
   created() {
-    axios.get("http://quotes.rest/qod.json?category=inspire").then(res => {
+    axios.get("https://quotes.rest/qod.json?category=inspire").then(res => {
       this.quote = res.data.contents.quotes[0].quote;
       this.author = res.data.contents.quotes[0].author;
     });

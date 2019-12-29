@@ -1,17 +1,18 @@
 <template>
   <div class="home">
-    <div>
-      <h1>Welcome to homepage</h1>
-    </div>
+    <Login />
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
+import Login from "./Login";
 
 export default {
   name: "home",
-  components: {},
+  components: {
+    Login
+  },
   methods: {
     cickaction() {
       console.log("cickaction");
