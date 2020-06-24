@@ -1,7 +1,3 @@
-# vue-Login-UI
-
-Live Demo :- https://vue-login-ui.now.sh/#/
-
 ## Project setup
 
 ```
